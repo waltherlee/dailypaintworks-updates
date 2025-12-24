@@ -1,8 +1,8 @@
 name: dailypaintworks-sync
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0,30 * * * *'
+  # schedule:
+  #   - cron: '0,30 * * * *'
 
 jobs:
   sync:
